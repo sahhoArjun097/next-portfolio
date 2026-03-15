@@ -38,7 +38,7 @@ const About = () => {
           <p className="text-lg md:text-lg tapestry leading-relaxed">
             hi, i’m <span className=" tracking-tight ">arjun! </span>
             <span className=" font-medium tapestry">
-              a 22 year old developer based in Gurgao - India
+              a 22 year old developer based in Gurugram - India
             </span>
             .
           </p>

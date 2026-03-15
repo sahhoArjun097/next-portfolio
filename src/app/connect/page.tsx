@@ -16,7 +16,7 @@ const Connect = () => {
 
           <h2
             id="connect"
-            className="text-2xl md:text-4xl font-bold  leading-tight"
+            className="text-2xl md:text-4xl font-bold tapestry tracking-tight leading-tight"
           >
             Let’s build something amazing together 🚀
           </h2>
@@ -24,7 +24,7 @@ const Connect = () => {
 
         {/* Description */}
         <div className="relative z-10 mt-6 text-center">
-          <p className=" text-base md:text-lg max-w-xl mx-auto">
+          <p className=" text-base md:text-lg tapestry tracking-tight max-w-xl mx-auto">
             I&apos;m always open to discussing new projects, creative ideas, or
             opportunities to build impactful digital products.
           </p>
@@ -32,7 +32,7 @@ const Connect = () => {
         <div className="relative z-10 mt-10 flex flex-wrap justify-center gap-4">
           <FormModal />
         </div>
-        <div className="relative z-10 mt-10 flex justify-center items-center gap-2 text-sm ">
+        <div className="relative z-10 mt-10 flex tapestry tracking-tight justify-center items-center gap-2 text-sm ">
           <Sparkles className="h-4 w-4 " />
           Open to freelance • collaborations • opportunities
         </div>

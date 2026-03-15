@@ -58,7 +58,7 @@ const FormModal = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="px-8 py-3 text-lg cursor-pointer rounded-xl border border-gray-700 tracking-tight tapestry font-semibold transition">
+        <button className="px-8 py-3 text-lg cursor-pointer rounded-xl border tapestry border-gray-700 tracking-tight  font-semibold transition">
           Start your project
         </button>
       </DialogTrigger>

@@ -29,7 +29,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],
+    projectImage: ["SP1.png", "SP2.png", "SP3.png", "SP4.png", "SP5.png"],
     link: "https://github.com/sahhoArjun097/Student_portal",
   },
   {
@@ -60,7 +60,13 @@ export const projects = [
         name: "Razorpay",
       },
     ],
-    projectImage: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],
+    projectImage: [
+      "Mgen1.png",
+      "Mgen2.png",
+      "Mgen3.png",
+      "Mgen4.png",
+      "Mgen5.png",
+    ],
     link: "https://github.com/sahhoArjun097/mugen",
   },
   {
@@ -92,7 +98,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],
+    projectImage: ["Ecare1.png"],
     link: "https://github.com/sahhoArjun097/E-caretracksubmit",
   },
   {
@@ -119,7 +125,7 @@ export const projects = [
         name: "Node",
       },
     ],
-    projectImage: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],
+    projectImage: ["CS1.png"],
     link: "https://github.com/sahhoArjun097/code_genz",
   },
 ];
