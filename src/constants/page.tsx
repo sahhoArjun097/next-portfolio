@@ -29,7 +29,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["SP1.png", "SP2.png", "SP3.png", "SP4.png", "SP5.png"],
+    projectImage: ["SP1.webp", "SP2.webp", "SP3.webp", "SP4.webp", "SP5.png"],
     link: "https://github.com/sahhoArjun097/Student_portal",
   },
   {
@@ -61,11 +61,11 @@ export const projects = [
       },
     ],
     projectImage: [
-      "Mgen1.png",
-      "Mgen2.png",
-      "Mgen3.png",
-      "Mgen4.png",
-      "Mgen5.png",
+      "Mgen1.webp",
+      "Mgen2.webp",
+      "Mgen3.webp",
+      "Mgen4.webp",
+      "Mgen5.webp",
     ],
     link: "https://github.com/sahhoArjun097/mugen",
   },
@@ -98,7 +98,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["Ecare1.png"],
+    projectImage: ["Ecare1.webp"],
     link: "https://github.com/sahhoArjun097/E-caretracksubmit",
   },
   {
@@ -125,7 +125,7 @@ export const projects = [
         name: "Node",
       },
     ],
-    projectImage: ["CS1.png"],
+    projectImage: ["CS1.webp"],
     link: "https://github.com/sahhoArjun097/code_genz",
   },
 ];
