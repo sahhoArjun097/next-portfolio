@@ -29,7 +29,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["SP1.webp", "SP2.webp", "SP3.webp", "SP4.webp", "SP5.png"],
+    projectImage: ["SP1.webp", "SP2.webp", "SP3.webp", "SP4.webp", "SP5.webp"],
     link: "https://github.com/sahhoArjun097/Student_portal",
   },
   {
@@ -240,7 +240,7 @@ export const testimonials_top = [
     name: "Mohak rajput",
     role: "Backend Developer @MST",
     text: "I had the pleasure of working with Arjun and can confidently say that he is a highly dedicated and skilled professional. He consistently demonstrates strong problem-solving abilities, a great work ethic, and a willingness to go the extra mile to deliver quality results",
-    image: "/1641299456337.jpg",
+    image: "/mohak.webp",
   },
 ];
 
@@ -248,14 +248,20 @@ export const testimonials_bottom = [
   {
     name: "Manya Agarwal",
     role: "",
-    text: "",
+    text: "Arjun’s UI skills made our project look amazing!",
     image: "user-profile-avatar-svgrepo-com (1).svg",
   },
   {
-    name: "Mohak rajput",
+    name: "Divyanshi Vishonai",
     role: "Backend Developer @MST",
-    text: "",
-    image: "/1641299456337.jpg",
+    text: "Loved working with Arjun! His UI skills really made our project look clean and professional.",
+    image: "/divya.webp",
+  },
+  {
+    name: "Ashish  Ansh",
+    role: "Data Engineering @YUM!",
+    text: "Great teamwork and awesome frontend by Arjun!",
+    image: "/Ashish.webp",
   },
 ];
 

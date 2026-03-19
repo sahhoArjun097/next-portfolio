@@ -55,18 +55,24 @@ const About = () => {
           </p>
 
           <div className="flex">
-            <p className="text-base flex  tapestry md:text-lg  leading-relaxed">
-              got an idea worth building?
-              <span className=" flex  ml-1 font-medium">let’s chat</span>
-              <span className="inline-flex ml-3 align-middle">
+            <p className="text-base md:text-lg leading-relaxed flex flex-wrap items-center">
+              <span>got an idea worth building?</span>
+
+              <span className="ml-1 font-medium">let’s chat</span>
+
+              {/* Email Button */}
+              <span className="ml-2 mt-2 sm:mt-0">
                 <LinkButton
                   link="https://mail.google.com/mail/?view=cm&fs=1&to=heonyagarwal@gmail.com"
                   buttonName="Email"
                   iconPath="/email-open-svgrepo-com.svg"
                 />
               </span>
-              &
-              <span className="inline-flex ml-3 align-middle">
+
+              <span className="mx-2 mt-2 sm:mt-0">&</span>
+
+              {/* Twitter Button */}
+              <span className="mt-2 sm:mt-0">
                 <LinkButton
                   link="https://x.com/SAAHO94539047"
                   buttonName="Twitter dm"
