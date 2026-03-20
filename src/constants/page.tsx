@@ -242,28 +242,15 @@ export const testimonials_top = [
     text: "I had the pleasure of working with Arjun and can confidently say that he is a highly dedicated and skilled professional. He consistently demonstrates strong problem-solving abilities, a great work ethic, and a willingness to go the extra mile to deliver quality results",
     image: "/mohak.webp",
   },
-];
-
-export const testimonials_bottom = [
-  {
-    name: "Manya Agarwal",
-    role: "",
-    text: "Arjun’s UI skills made our project look amazing!",
-    image: "user-profile-avatar-svgrepo-com (1).svg",
-  },
-  {
-    name: "Divyanshi Vishonai",
-    role: "Backend Developer @MST",
-    text: "Loved working with Arjun! His UI skills really made our project look clean and professional.",
-    image: "/divya.webp",
-  },
   {
     name: "Ashish  Ansh",
     role: "Data Engineering @YUM!",
-    text: "Great teamwork and awesome frontend by Arjun!",
+    text: "Great teamwork and awesome frontend by Arjun!. His frontend work made our project look polished and professional. The final product looked clean and well-designed.",
     image: "/Ashish.webp",
   },
 ];
+
+export const testimonials_bottom = [];
 
 export const images = {
   StudenPortal: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],
