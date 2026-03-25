@@ -16,6 +16,7 @@ import emailjs from "@emailjs/browser";
 import { Button } from "@/src/components/ui/button";
 import { useFormik } from "formik";
 import { Input } from "@/src/components/ui/input";
+import validationSchema from "./validation";
 
 const FormModal = () => {
   const [loading, setLoading] = React.useState(false);
@@ -27,7 +28,7 @@ const FormModal = () => {
       phone: "",
       message: "",
     },
-
+    validationSchema: validationSchema,
     onSubmit: async (values, { resetForm }) => {
       setLoading(true);
 
@@ -79,11 +80,14 @@ const FormModal = () => {
               id="name"
               name="name"
               placeholder="Enter your name"
+              maxLength={30}
               value={formik.values.name}
               onChange={formik.handleChange}
               className="border border-gray-700 text-white placeholder-gray-400"
-              required
             />
+            {formik.touched.name && formik.errors.name && (
+              <p className="text-red-500 text-sm">{formik.errors.name}</p>
+            )}
           </div>
 
           {/* Email */}
@@ -93,12 +97,15 @@ const FormModal = () => {
               id="email"
               type="email"
               name="email"
+              maxLength={20}
               placeholder="Enter your email"
               value={formik.values.email}
               onChange={formik.handleChange}
               className="border border-gray-700"
-              required
             />
+            {formik.touched.phone && formik.errors.phone && (
+              <p className="text-red-500 text-sm">{formik.errors.phone}</p>
+            )}
           </div>
 
           {/* Phone */}
@@ -108,6 +115,7 @@ const FormModal = () => {
               id="phone"
               type="tel"
               name="phone"
+              maxLength={15}
               placeholder="Enter your phone number"
               value={formik.values.phone}
               onChange={formik.handleChange}
@@ -122,12 +130,15 @@ const FormModal = () => {
               id="message"
               name="message"
               rows={4}
+              maxLength={200}
               placeholder="Write your message..."
               value={formik.values.message}
               onChange={formik.handleChange}
               className="border border-gray-700 rounded-md px-3 py-2"
-              required
             />
+            {formik.touched.message && formik.errors.message && (
+              <p className="text-red-500 text-sm">{formik.errors.message}</p>
+            )}
           </div>
 
           <DialogFooter className="flex justify-end gap-3">
@@ -144,7 +155,7 @@ const FormModal = () => {
             <Button
               type="submit"
               className="bg-white text-black hover:bg-gray-200"
-              disabled={loading}
+              disabled={loading || !formik.isValid}
             >
               {loading ? "Sending..." : "Submit"}
             </Button>
