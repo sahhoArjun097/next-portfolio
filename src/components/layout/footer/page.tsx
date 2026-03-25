@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="pt-6 sm:pt-10 pb-6 flex flex-col items-center cursor-pointer text-center text-xs sm:text-sm gap-1 opacity-70 tracking-tight">
       <p>
         Design & Developed by{" "}
-        <Link href="/about" className="hover:underline ">
+        <Link href="/" className="hover:underline ">
           Arjun Agarwal
         </Link>
       </p>
