@@ -23,7 +23,7 @@ const About = () => {
             />
           </div>
           <div className="space-y-1">
-            <h1 className="text-xl font-semibold tapestry tracking-tight">
+            <h1 className=" text-sm md:text-xl font-semibold tapestry tracking-tight">
               Arjun Agarwal
             </h1>
             <p className="text-sm tapestry">Software Engineer</p>
