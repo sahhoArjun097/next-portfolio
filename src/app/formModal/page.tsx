@@ -97,7 +97,7 @@ const FormModal = () => {
               id="email"
               type="email"
               name="email"
-              maxLength={20}
+              maxLength={50}
               placeholder="Enter your email"
               value={formik.values.email}
               onChange={formik.handleChange}
