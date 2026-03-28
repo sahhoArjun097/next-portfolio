@@ -1,7 +1,9 @@
 import LinkButton from "@/src/components/ui/linkButton";
 import { Music } from "@/src/components/ui/music";
+import Resume from "@/src/components/ui/resume";
 
 import { ModeToggle } from "@/src/components/ui/theme-toggle";
+
 import Image from "next/image";
 
 const About = () => {
@@ -27,9 +29,10 @@ const About = () => {
             <p className="text-sm tapestry">Software Engineer</p>
           </div>
         </div>
-        <div className="flex p-5">
+        <div className="flex p-5 justify-center items-center gap-2 ">
           <Music />
           <ModeToggle />
+          <Resume />
         </div>
       </div>
 
