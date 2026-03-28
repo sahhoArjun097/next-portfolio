@@ -11,7 +11,7 @@ const About = () => {
     <div className="flex flex-col w-full max-w-2xl h-full p-1  border-amber-100 gap-3 ">
       <div className="flex items-center justify-between gap-3">
         <div className="flex items-center gap-6">
-          <div className="w-24 h-24 rounded-2xl overflow-hidden border border-zinc-800">
+          <div className="w-24 h-21 md:h-24 rounded-2xl overflow-hidden border border-zinc-800">
             <Image
               src="https://avatars.githubusercontent.com/u/123585663?v=4&size=256"
               alt="Profile"
