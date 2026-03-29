@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="flex gap-6 text-sm">
         <span className="text-sm font-serif tracking-wide">
           {time}
-          <span>(GMT+5:30) Gurugram , India</span>
+          <span> Gurugram , India</span>
         </span>
       </div>
     </nav>

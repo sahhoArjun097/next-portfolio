@@ -5,6 +5,7 @@ export const projects = [
     description:
       "A responsive student management portal with admin controls for managing records and courses, and student dashboards for accessing courses, submitting assignments, tracking progress, and receiving notifications.",
     status: "Running",
+    color: "text-emerald-400",
 
     tech: [
       {
@@ -37,7 +38,8 @@ export const projects = [
     icon: "/github-svgrepo-com.svg",
     description:
       "MuGen – A Real-Time Music Generator is an AI-based system that generates music based on the user’s mood. It uses a (RNN) along with a genetic algorithm to create melodies, chords, and beats automatically. The platform allows users to select a mood, generate music in real time.",
-    status: "Deployed",
+    status: "Running",
+    color: "text-emerald-400",
     tech: [
       {
         icon: "/python-svgrepo-com.svg",
@@ -75,6 +77,7 @@ export const projects = [
     description:
       "Admin panel to manage doctors, users, appointments, and hospital data efficiently. Built with RESTful APIs for smooth backend operations and designed to be fully responsive across desktop, tablet, and mobile device",
     status: "Running",
+    color: "text-emerald-400",
     tech: [
       {
         icon: "/react-javascript-js-framework-facebook-svgrepo-com.svg",
@@ -107,6 +110,7 @@ export const projects = [
     description:
       "Coding Samuri is a platform dedicated to providing students with free and paid internships as well as training opportunities in the field of programming and development. Whether you're looking to gain real-world experience or expand your skills through structured learning",
     status: "Working",
+    color: "text-red-800",
     tech: [
       {
         icon: "nextjs-fill-svgrepo-com.svg",
@@ -132,12 +136,12 @@ export const projects = [
 
 export const techStack = [
   {
-    buttonName: "Next.js",
-    iconPath: "/nextjs-fill-svgrepo-com.svg",
-  },
-  {
     buttonName: "TypeScript",
     iconPath: "/typescript-svgrepo-com.svg",
+  },
+  {
+    buttonName: "Next.js",
+    iconPath: "/nextjs-fill-svgrepo-com.svg",
   },
   {
     buttonName: "React.js",

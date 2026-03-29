@@ -50,8 +50,8 @@ const Project = () => {
                   <p className="text-sm mb-5">{project.description}</p>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400">
-                    ● {project.status}
+                  <span className={`text-sm  py-1 ${project.color}  `}>
+                    <span className="mx-px">●</span> {project.status}
                   </span>
 
                   <div className="flex gap-2 flex-wrap">
