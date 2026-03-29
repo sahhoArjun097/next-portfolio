@@ -3,7 +3,7 @@ import { FileText } from "lucide-react";
 const Resume = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1BsKGMU1fLlxR-Widn5hPf6_wabkS78FK/view?usp=sharing"
+      href="https://drive.google.com/file/d/1aw2IpDPh5yOL0VBH51RAmJSwyQ9ap5Dp/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="relative flex items-center justify-center cursor-pointer group"
