@@ -239,11 +239,13 @@ export const testimonials_top = [
     role: "Team Lead @MST",
     text: "I'm impressed by Arjun's skills and dedication as a developer. His post reflects deep technical knowledge and clear communication. His work is consistently high-quality, creative, and professional-truly a pleasure to collaborate with.",
     image: "user-profile-avatar-svgrepo-com (1).svg",
+    link: "",
   },
   {
     name: "Mohak rajput",
     role: "Backend Developer @MST",
     text: "I had the pleasure of working with Arjun and can confidently say that he is a highly dedicated and skilled professional. He consistently demonstrates strong problem-solving abilities, a great work ethic, and a willingness to go the extra mile to deliver quality results",
+    link: "https://www.linkedin.com/in/mohak-rajput-0854b7202/",
     image: "/mohak.webp",
   },
   {
@@ -251,10 +253,26 @@ export const testimonials_top = [
     role: "Data Engineering @YUM!",
     text: "Great teamwork and awesome frontend by Arjun!. His frontend work made our project look polished and professional. The final product looked clean and well-designed.",
     image: "/Ashish.webp",
+    link: "https://www.linkedin.com/in/ashishansh/",
   },
 ];
 
-export const testimonials_bottom = [];
+export const testimonials_bottom = [
+  {
+    name: "Divyanshi Vishnoi",
+    role: "Backend Developer @MST!",
+    text: "Arjun is a friend who’s always pushing himself to grow. His frontend and React skills are impressive.",
+    image: "/divya.webp",
+    link: "https://www.linkedin.com/in/divyanshi09/",
+  },
+  {
+    name: "Arin Saxena",
+    role: "Full-Stack Developer  @Radicle Inc!",
+    text: "Arjun is a great person to work with, always motivated and focused on improving his skills.",
+    image: "/arin.webp",
+    link: "https://www.linkedin.com/in/arin-saxena-7a9935291/",
+  },
+];
 
 export const images = {
   StudenPortal: ["me.jpg", "me.jpg", "me.jpg", "me.jpg", "me.jpg"],

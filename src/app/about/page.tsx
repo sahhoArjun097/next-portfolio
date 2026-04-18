@@ -41,7 +41,7 @@ const About = () => {
           <p className="text-lg md:text-lg tapestry leading-relaxed">
             hi, i’m <span className=" tracking-tight ">arjun! </span>
             <span className=" font-medium tapestry">
-              a 22 year old developer based in Gurugram - India
+              a software developer based in Gurugram - India
             </span>
             .
           </p>
@@ -58,7 +58,7 @@ const About = () => {
           </p>
 
           <div className="flex">
-            <p className="text-base md:text-lg leading-relaxed flex flex-wrap items-center">
+            <p className="text-base md:text-lg  tapestry flex flex-wrap items-center">
               <span>got an idea worth building?</span>
 
               <span className="ml-1 font-medium">let’s chat</span>
