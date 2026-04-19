@@ -259,13 +259,6 @@ export const testimonials_top = [
 
 export const testimonials_bottom = [
   {
-    name: "Divyanshi Vishnoi",
-    role: "Backend Developer @MST!",
-    text: "Arjun is a friend who’s always pushing himself to grow. His frontend and React skills are impressive.",
-    image: "/divya.webp",
-    link: "https://www.linkedin.com/in/divyanshi09/",
-  },
-  {
     name: "Arin Saxena",
     role: "Full-Stack Developer  @Radicle Inc!",
     text: "Arjun is a great person to work with, always motivated and focused on improving his skills.",
