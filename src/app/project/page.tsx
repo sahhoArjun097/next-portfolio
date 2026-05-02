@@ -1,16 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import HeaderTitle from "@/src/components/layout/header-title/page";
 import { projects } from "@/src/constants/page";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Project = () => {
+  const location = usePathname();
+  const isProject = location === "/project";
+  const visibleItem = isProject ? projects : projects.slice(0, 4);
   return (
-    <section className="flex w-full tapestry  flex-col justify-center items-center">
-      <div className="w-full max-w-5xl space-y-6">
+    <section className="flex  tapestry  flex-col justify-center items-center">
+      <div className="w-full max-w-5xl md:max-w-2xl space-y-6">
         <HeaderTitle title={"Project"} />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center">
-          {projects.map((project, index) => (
+          {visibleItem.map((project, index) => (
             <div
               key={index}
               className="w-full max-w-[350px] rounded-2xl border border-zinc-800 tracking-tight overflow-hidden hover:border-zinc-700 transition flex flex-col h-full"

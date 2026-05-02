@@ -26,7 +26,7 @@ const About = () => {
             <h1 className=" text-sm md:text-xl font-semibold tapestry tracking-tight">
               Arjun Agarwal
             </h1>
-            <p className="text-sm tapestry">Software Engineer</p>
+            <p className="text-sm tapestry">Software Developer</p>
           </div>
         </div>
         <div className="flex p-5 justify-center items-center gap-2 ">

@@ -30,7 +30,7 @@ export const projects = [
         name: "Mongodb",
       },
     ],
-    projectImage: ["SP1.webp", "SP2.webp", "SP3.webp", "SP4.webp", "SP5.webp"],
+    projectImage: ["SP1.webp"],
     link: "https://github.com/sahhoArjun097/Student_portal",
   },
   {
@@ -62,13 +62,7 @@ export const projects = [
         name: "Razorpay",
       },
     ],
-    projectImage: [
-      "Mgen1.webp",
-      "Mgen2.webp",
-      "Mgen3.webp",
-      "Mgen4.webp",
-      "Mgen5.webp",
-    ],
+    projectImage: ["Mgen1.webp"],
     link: "https://github.com/sahhoArjun097/mugen",
   },
   {
@@ -103,6 +97,90 @@ export const projects = [
     ],
     projectImage: ["Ecare1.webp"],
     link: "https://github.com/sahhoArjun097/E-caretracksubmit",
+  },
+  {
+    title: "Code Samuri",
+    icon: "/github-svgrepo-com.svg",
+    description:
+      "Coding Samuri is a platform dedicated to providing students with free and paid internships as well as training opportunities in the field of programming and development. Whether you're looking to gain real-world experience or expand your skills through structured learning",
+    status: "Working",
+    color: "text-red-800",
+    tech: [
+      {
+        icon: "nextjs-fill-svgrepo-com.svg",
+        name: "Next",
+      },
+      {
+        icon: "/typescript-svgrepo-com.svg",
+        name: "TS",
+      },
+      {
+        icon: "/firebase-svgrepo-com.svg",
+        name: "Firebase",
+      },
+      {
+        icon: "/nodejs-svgrepo-com.svg",
+        name: "Node",
+      },
+    ],
+    projectImage: ["CS1.webp"],
+    link: "https://github.com/sahhoArjun097/code_genz",
+  },
+  {
+    title: "Code Samuri",
+    icon: "/github-svgrepo-com.svg",
+    description:
+      "Coding Samuri is a platform dedicated to providing students with free and paid internships as well as training opportunities in the field of programming and development. Whether you're looking to gain real-world experience or expand your skills through structured learning",
+    status: "Working",
+    color: "text-red-800",
+    tech: [
+      {
+        icon: "nextjs-fill-svgrepo-com.svg",
+        name: "Next",
+      },
+      {
+        icon: "/typescript-svgrepo-com.svg",
+        name: "TS",
+      },
+      {
+        icon: "/firebase-svgrepo-com.svg",
+        name: "Firebase",
+      },
+      {
+        icon: "/nodejs-svgrepo-com.svg",
+        name: "Node",
+      },
+    ],
+    projectImage: ["CS1.webp"],
+    link: "https://github.com/sahhoArjun097/code_genz",
+  },
+  {
+    title: "Code Samuri",
+    icon: "/github-svgrepo-com.svg",
+    description:
+      "Coding Samuri is a platform dedicated to providing students with free and paid internships as well as training opportunities in the field of programming and development. Whether you're looking to gain real-world experience or expand your skills through structured learning",
+    status: "Working",
+    color: "text-red-800",
+    tech: [
+      {
+        icon: "nextjs-fill-svgrepo-com.svg",
+        name: "Next",
+      },
+      {
+        icon: "/typescript-svgrepo-com.svg",
+        name: "TS",
+      },
+      {
+        icon: "/firebase-svgrepo-com.svg",
+        name: "Firebase",
+      },
+      {
+        icon: "/nodejs-svgrepo-com.svg",
+        name: "Node",
+      },
+    ],
+    projectImage: ["CS1.webp"],
+    link: "https://github.com/sahhoArjun097/code_genz",
   },
   {
     title: "Code Samuri",
